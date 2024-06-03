@@ -1,0 +1,19 @@
+- Anthos is hybrid / multi-cloud platform . used for central mgmt .
+- Anthos is application modernization and delivery platform offered by gcp .
+- anthos brings on-premise and public cloud together or other cloud provider also .
+- provides common config. magt platform .
+
+# service Mesh
+- servive mesh connects on-premice and public cloud together and keep on same network . it is intellient gateway , proxy or router which forwards traffic to discover services 
+- service mesh is also called as estio 
+- estio helps to reduce , manage complexity of service deployments .
+- it provides uniform way to secured , connect and monitor services .
+
+1. helps to automatic load balancing 
+2. can control traffic behavior like block traffic from ip address  
+3. it generates logs of traffic and metrics which will be like ingress and egress .
+4 . allows secure services , and no chance of manipulation and traffic .
+- each cluster has its own estio 
+- services running outside the cluster defined by dns_name.global 
+- services running inside the cluster defined by dns_name.local .
+
